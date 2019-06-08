@@ -9,8 +9,11 @@ I'm using my STM32F042F6 capibara 2 mini dev kit, having 2 buttons, 3 LEDs and a
 
 The pinout is as follows:
 >PA1 - Button '0'
+
 >PA2 - Button '1'
+
 >PA3 - Button 'Backspace'
+
 >PB8 - Used to enter on DFU mode / when booted, used to enter in debug mode
 
 On this project, the LED resistors were removed to avoid blinking lights inside of the case.
@@ -23,5 +26,7 @@ When you type groupings of 8 bits, the keyboard interprets it as a byte and writ
 When you type, the buffer is filled MSB first, so that you can read easily chars from the ASCII table. When the buffer is full, it is converted to the HID Report equivalent to that ASCII 
 
 Feel free to use this code for all sorts of STM32F0 applications, the function _easterEgg()_ can be used to write automatically any phrase you want.
+
+
 
 

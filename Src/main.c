@@ -294,9 +294,9 @@ void sendChar(uint8_t c){
 	HAL_Delay(20);
 }
 void easterEgg(){
-	  char frasedodiabo[]="Hail satan!\n";
-	  for (int i=0; i<strlen(frasedodiabo); i++)
-		    sendChar((uint8_t)frasedodiabo[i]);
+	  char devilsphrase[]="Hail satan!\n";
+	  for (int i=0; i<strlen(devilsphrase); i++)
+		    sendChar((uint8_t)devilsphrase[i]);
 }
 /* USER CODE END 4 */
 
